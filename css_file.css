@@ -1,60 +1,25 @@
-            /* binary tree boxes */
-            .binbox {
+        /* nodes */
+            .node {
                 /* to do */
                 display: inline-block;
             }
 
-            .activebox {
+            .node-active {
                 color:azure;
                 background-color:darkred;
             }
-            .inactivebox {
+            .node-inactive {
                 color:darkgray;
                 background-color:grey;
            }
         /* CSS for overall layout */
-           .content {
-               border:darkslategray;
-               background-color: darkred;
-               margin: 5px;
-           }
-           #contentLeftMajority {
-               min-width: 74%;
-               float: left;
-               background-color: cadetblue;
-           }
-           .content-leftside {
-               min-width: 35%;
-           }
-           .content-rightside {
-               min-width: 23%;
-               max-width: 25%;
-           }
-           .content-middle {
-               /*min-width: 500px;
-               max-width: 50%;*/
-               min-width: 60%;
-           }
-           #contentContextHelp {
-               height: 400px;
-               float: left;
-           }
-           #contentMain {
-                height: 400px;
-                float: right;
-           }
-           #contentToggleButtons {
-                height: 600px;
-                float: right;
-           }
-           #contentMiscInfo {
-               height: 200px;
-               float: left;
-           }
-           #contentBelowMain {
-               height: 200px;
-               float: right;
-           }
+            .content-top {
+                height: 80%;
+            }
+            .content-bottom {
+                height: 20%;                
+            }
+
         /* CSS for toggle switch */
             /* The switch - the box around the slider */
             .switch {
