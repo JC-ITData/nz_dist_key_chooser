@@ -104,9 +104,53 @@
                 }
             }
         }        
-    
+
+    /////////////////////////////////////////////////////////////////
+    // class for data 
+        class NodeData {
+            constructor(key, positionFromParent, parentKey, textValueMessage, textValueRank = null) {
+                this.key = key;
+                this.positionFromParent = positionFromParent; // "left", "right", or null (for root)
+                this.parentKey = parentKey;
+                this.textValueMessage = textValueMessage;
+                this.textValueRank = textValueRank;
+            }
+        }
+
+
     /////////////////////////////////////////////////////////////////
     // loading / rendering
-    var objtree1 = new Tree();
+        var arDataItems = [];
+        
+        arDataItems.push(new NodeData(key = 1, positionFromParent = null, parentKey = null, textValueMessage = "Does the field exist in both tables? (Table being created and table being joined to)", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 2, positionFromParent = "left", parentKey = 1, textValueMessage = "Does the table I am joining to use this field as the distribution key?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 3, positionFromParent = "right", parentKey = 1, textValueMessage = "Which table does the field exist in?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 4, positionFromParent = "left", parentKey = 2, textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 5, positionFromParent = "right", parentKey = 2, textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 6, positionFromParent = "left", parentKey = 3, textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 7, positionFromParent = "right", parentKey = 3, textValueMessage = "Does the table I am joining to use this field as the distribution key?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 8, positionFromParent = "left", parentKey = 4, textValueMessage = "Is this field used in the join condition?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 9, positionFromParent = "right", parentKey = 4, textValueMessage = "Will this table get larger than 100 thous records?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 10, positionFromParent = "left", parentKey = 5, textValueMessage = "Is this field used in the join condition?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 11, positionFromParent = "right", parentKey = 5, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 12, positionFromParent = "left", parentKey = 6, textValueMessage = null, textValueRank = 6)); 
+        arDataItems.push(new NodeData(key = 13, positionFromParent = "right", parentKey = 6, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 14, positionFromParent = "left", parentKey = 7, textValueMessage = "Would this field have high cardinality (good cardinality) if added to the sandbox table?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 15, positionFromParent = "right", parentKey = 7, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 16, positionFromParent = "left", parentKey = 8, textValueMessage = "This is the best option available!", textValueRank = 1)); 
+        arDataItems.push(new NodeData(key = 17, positionFromParent = "right", parentKey = 8, textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance", textValueRank = 2)); 
+        arDataItems.push(new NodeData(key = 18, positionFromParent = "left", parentKey = 9, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = -)); 
+        arDataItems.push(new NodeData(key = 19, positionFromParent = "right", parentKey = 9, textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance", textValueRank = 3)); 
+        arDataItems.push(new NodeData(key = 20, positionFromParent = "left", parentKey = 10, textValueMessage = "Note: Your queries will not be colocated", textValueRank = 5)); 
+        arDataItems.push(new NodeData(key = 21, positionFromParent = "right", parentKey = 10, textValueMessage = "Note: Your queries will not be colocated", textValueRank = 6)); 
+        arDataItems.push(new NodeData(key = 22, positionFromParent = "left", parentKey = 14, textValueMessage = "Note: Your queries will be well-distributed and co-located if you include the field in the join condition. INSTRUCTIONS: Add this field to your join condition in queries for faster performance", textValueRank = 2)); 
+        arDataItems.push(new NodeData(key = 23, positionFromParent = "right", parentKey = 14, textValueMessage = "Will this table get larger than 100 thous records?", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 24, positionFromParent = "left", parentKey = 23, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = null)); 
+        arDataItems.push(new NodeData(key = 25, positionFromParent = "right", parentKey = 23, textValueMessage = null, textValueRank = 4)); 
+
+
+        var objtree1 = new Tree();
+
+
     
 </script>
