@@ -141,7 +141,7 @@
         arDataItems.push(new NodeData(key = 15, positionFromParent = "right", parentKey = 7, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = null)); 
         arDataItems.push(new NodeData(key = 16, positionFromParent = "left", parentKey = 8, textValueMessage = "This is the best option available!", textValueRank = 1)); 
         arDataItems.push(new NodeData(key = 17, positionFromParent = "right", parentKey = 8, textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance", textValueRank = 2)); 
-        arDataItems.push(new NodeData(key = 18, positionFromParent = "left", parentKey = 9, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = -)); 
+        arDataItems.push(new NodeData(key = 18, positionFromParent = "left", parentKey = 9, textValueMessage = "DO NOT USE. Find another field for distribution.", textValueRank = null)); 
         arDataItems.push(new NodeData(key = 19, positionFromParent = "right", parentKey = 9, textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance", textValueRank = 3)); 
         arDataItems.push(new NodeData(key = 20, positionFromParent = "left", parentKey = 10, textValueMessage = "Note: Your queries will not be colocated", textValueRank = 5)); 
         arDataItems.push(new NodeData(key = 21, positionFromParent = "right", parentKey = 10, textValueMessage = "Note: Your queries will not be colocated", textValueRank = 6)); 
@@ -151,7 +151,23 @@
         arDataItems.push(new NodeData(key = 25, positionFromParent = "right", parentKey = 23, textValueMessage = null, textValueRank = 4)); 
 
         var objtree1 = new Tree();
+        var objParentNodes = {};
+        // objParentNodes[parent_node_id_num] = {node: parentNodeObj, childNodes: [childnode1, childnode2, childnode3]}
 
+        // loop through node data
+            for(i=1; i< arDataItems.count; i++) {
+                nodeData1 = arDataItems[i];
+
+                //note - for root node, some of these values will be null
+                nodeObj1 = objtree.insert(textValueMessage = nodeData1.textValueMessage, parentNode = objParentNodes[nodeData1.parentKey], position=nodeData1.positionFromParent, textValueRank = nodeData1.textValueRank);
+                // add all nodes into objParentNodes even if they don't have children. if no children, can leave childNodes as empty array
+                objParentNodes[nodeData1.key] = {node: nodeObj1, childNodes: []};
+                
+                // add nodeObj1 to child nodes
+                if (objParentNodes[nodeData1.parentKey] != null) { // if statement needed for root node
+                    objParentNodes[nodeData1.parentKey].childNodes.push(nodeObj1);
+                }
+            }
 
     
 </script>
