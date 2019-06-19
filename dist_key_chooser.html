@@ -17,10 +17,8 @@
                     <div class="col-2 border">icons field summary</div>
                     <div class="col-10 border">
                         main content.<p id="text1" style="display:none">Slider is checked</p>
-                        <div id="bintree1"></div>
-                        <canvas id="canvas" width="300" height="300">
-                                An alternative text describing what your canvas displays. 
-                              </canvas>
+                        <!-- <div id="bintree1"></div> -->
+                       <!-- <img src="img/decision_tree.svg"/> --> <!-- onload="LoadTree(this)" -->
                     </div>
                 </div>
                 <div class="row content-bottom">
@@ -56,8 +54,6 @@
     </div>
 <script>
 
-    var divbintree1 = document.getElementById('bintree1');
-    divbintree1.innerHTML = "";
     
     /////////////////////////////////////////////////////////////////
     // presentation
@@ -159,6 +155,8 @@
         var objtree1 = new Tree();
         var objParentNodes = {};
         // objParentNodes[parent_node_id_num] = {node: parentNodeObj, childNodes: [childnode1, childnode2, childnode3]}
+        var objCategoryNodes = {}; // tracks nodes for each category
+        // objCategoryNodes[nodeID] = {category: category_string, nodes: [node1, node2, node3]}
 
         // loop through node data
             for(i=1; i< arDataItems.count; i++) {
@@ -173,11 +171,24 @@
                 if (objParentNodes[nodeData1.parentKey] != null) { // if statement needed for root node
                     objParentNodes[nodeData1.parentKey].childNodes.push(nodeObj1);
                 }
+
+                // add node to objCategoryNodes
+                if (objCategoryNodes[nodeData1.category] == null) {
+                    objCategoryNodes[nodeData1.category] = {category : nodeData1.category, nodes:[]} ;
+                }
+                objCategoryNodes[nodeData1.category].nodes.push(nodeObj1);
             }
 
             for (var parentNodeKey in objParentNodes) {
                 console.log('key:' + parentNodeKey + ' value:' + objParentNodes[parentNodeKey]);
             }
+
+    /////////////////////////////////////////////////////////////////
+    // update formatting when change values of form buttons
+        function UpdateDecisionTreeFormat(category1, categoryValueYN) {
+            console.log('abc');
+        }
+        
     
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
