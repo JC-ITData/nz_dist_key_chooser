@@ -64,14 +64,14 @@
             var svgSubDoc = document.getElementById("svgDecisionTree").contentDocument;
             var nodeSvg = svgSubDoc.getElementById("node1");
             
-            // If the slider is on, display output text            
+            ClearDecisionTreeFormatting();
+            UpdateDecisionTreeFormat({category1:slider1.id.replace("slid_",""), categoryValueYN:slider1.checked, nodeSvg:nodeSvg});
+            /* // If the slider is on, display output text        
             if (slider1.checked == true){
                 text.style.display = "block";
-                nodeSvg.setAttribute("class", "node-active");
             } else {
                 text.style.display = "none";
-                nodeSvg.setAttribute("class", "node-inactive");
-            }
+            } */
             
 
         }
@@ -125,6 +125,7 @@
                 this.parentKey = parentKey;
                 //this.textValueMessage = textValueMessage;
                 this.textValueRank = textValueRank;
+                this.category = category;
             }
         }
 
@@ -191,7 +192,12 @@
         function ClearDecisionTreeFormatting(){
             console.log('abc');
         }
-        function UpdateDecisionTreeFormat({category1, categoryValueYN}) {
+        function UpdateDecisionTreeFormat({category1, categoryValueYN, nodeSvg}) {
+            console.log(category1 + " " + categoryValueYN);
+            console.log(nodeSvg) ;
+            if (categoryValueYN) {
+                nodeSvg.setAttribute("class", "node-active");
+            } else { nodeSvg.setAttribute("class", "node-inactive"); }
             for (i=0; i < objCategoryNodes[category1].nodes.length; i++) {
                 console.log('abc');
             }
