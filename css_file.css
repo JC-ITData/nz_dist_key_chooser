@@ -5,12 +5,10 @@
             }
 
             .node-active {
-                color:azure;
-                background-color:darkred;
+                fill:azure;
             }
             .node-inactive {
-                color:darkgray;
-                background-color:grey;
+                fill:grey;
            }
         /* CSS for overall layout */
             .content-top {

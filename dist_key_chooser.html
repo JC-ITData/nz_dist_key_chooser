@@ -7,7 +7,6 @@
         <title>Choosing a distribution key.</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="css_file.css" rel="stylesheet" type="text/css" media="all">
-        
 </head>
 <body>
     <div class="container-fluid" style="height: 500px">
@@ -18,7 +17,7 @@
                     <div class="col-10 border">
                         main content.<p id="text1" style="display:none">Slider is checked</p>
                         <!-- <div id="bintree1"></div> -->
-                        <object type="image/svg+xml" data="img/decision_tree.svg"> <!-- onload="LoadTree(this)" -->
+                        <object id="svgDecisionTree" type="image/svg+xml" data="img/decision_tree.svg"> <!-- onload="LoadTree(this)" -->
                             Your browser does not support SVG
                         </object>
                     </div>
@@ -31,23 +30,23 @@
             <div class="col-4 border">
 
                 <p>Field exists in both sandbox table and table being joined to:</p><p><label class="switch">
-                    <input type="checkbox" id="slid_ExistsInBoth" onclick="BinOptionChanged('slid_ExistsInBoth')">
+                    <input type="checkbox" id="slid_FIELD_IN_BOTH_TABLES" onclick="BinOptionChanged(this.id)">
                     <span class="slider round"></span>
                 </label></p>
                 <p>Field is a distribution key in the other table:</p><p><label class="switch">
-                    <input type="checkbox" id="slid_KeyInOtherTable" onclick="BinOptionChanged('slid_KeyInOtherTable')">
+                    <input type="checkbox" id="slid_DISTKEY_IN_OTHER_TABLE" onclick="BinOptionChanged(this.id)">
                     <span class="slider round"></span>
                 </label></p>
                 <p>Field has high cardinality in sandbox table:</p><p><label class="switch">
-                    <input type="checkbox" id="slid_HighCardinality" onclick="BinOptionChanged('slid_HighCardinality')">
+                    <input type="checkbox" id="slid_HIGH_CARDINALITY" onclick="BinOptionChanged(this.id)">
                     <span class="slider round"></span>
                 </label></p>
                 <p>Field is used in joins:</p><p><label class="switch">
-                    <input type="checkbox" id="slid_InJoins" onclick="BinOptionChanged('slid_InJoins')">
+                    <input type="checkbox" id="slid_USED_IN_JOINS" onclick="BinOptionChanged(this.id)">
                     <span class="slider round"></span>
                 </label></p>
                 <p>The sandbox table may get to be over 100 thous records:</p><p><label class="switch">
-                    <input type="checkbox" id="slid_LargeTable" onclick="BinOptionChanged('slid_LargeTable')">
+                    <input type="checkbox" id="slid_LARGE_TABLE" onclick="BinOptionChanged(this.id)">
                     <span class="slider round"></span>
                 </label></p>
 
@@ -62,13 +61,19 @@
         function BinOptionChanged(elementName) {
             var slider1 = document.getElementById(elementName);
             var text = document.getElementById("text1");
-
-            // If the slider is on, display output text
+            var svgSubDoc = document.getElementById("svgDecisionTree").contentDocument;
+            var nodeSvg = svgSubDoc.getElementById("node1");
+            
+            // If the slider is on, display output text            
             if (slider1.checked == true){
                 text.style.display = "block";
+                nodeSvg.setAttribute("class", "node-active");
             } else {
                 text.style.display = "none";
+                nodeSvg.setAttribute("class", "node-inactive");
             }
+            
+
         }
 
     /////////////////////////////////////////////////////////////////
@@ -183,6 +188,9 @@
 
     /////////////////////////////////////////////////////////////////
     // update formatting when change values of form buttons
+        function ClearDecisionTreeFormatting(){
+            console.log('abc');
+        }
         function UpdateDecisionTreeFormat({category1, categoryValueYN}) {
             for (i=0; i < objCategoryNodes[category1].nodes.length; i++) {
                 console.log('abc');
