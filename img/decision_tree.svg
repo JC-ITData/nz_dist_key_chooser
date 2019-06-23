@@ -1,0 +1,819 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+	xmlns="http://www.w3.org/2000/svg" style="background-color: rgb(255, 255, 255);"
+	xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1290px" height="641px" viewBox="-0.5 -0.5 1290 641" content="&lt;mxfile modified=&quot;2019-06-20T22:18:05.541Z&quot; host=&quot;www.draw.io&quot; agent=&quot;Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0&quot; etag=&quot;R5wF-M4Y_4qvfF1RGB4B&quot; version=&quot;10.7.7&quot; type=&quot;device&quot;&gt;&lt;diagram name=&quot;pretty&quot; id=&quot;D8NO7CwLTtegX5MWabSt&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+	<defs/>
+	<g>
+		<rect x="571" y="0" width="160" height="70" rx="10.5" ry="10.5" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node1" x="571" y="0" width="160" height="70" rx="10.5" ry="10.5" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(571.5,3.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="157" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 157px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID1 Does the field exist in both tables? (Table being created and table being joined to)
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="79" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="401" y="130" width="140" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node2" x="401" y="130" width="140" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(401.5,128.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="137" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 137px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID2 Does the table I am joining to use this field as the distribution key?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="69" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="761" y="130" width="120" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node3" x="761" y="130" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(761.5,136.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="117" height="41" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 117px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID3 Which table does the field exist in?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="59" y="27" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 698.6 70 L 780.2 130" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(726.5,72.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<path d="M 600.6 70 L 514.2 130" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(555.5,72.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<rect x="291" y="240" width="150" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node4" x="291" y="240" width="150" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(291.5,238.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="147" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 147px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID4 Does this field have high cardinality (good distribution) in the sandbox table?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="74" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="500.5" y="240" width="150" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node5" x="500.5" y="240" width="150" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(500.5,238.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="147" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 147px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID5 Does this field have high cardinality (good distribution) in the sandbox table?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="74" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="61" y="350" width="120" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node8" x="61" y="350" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(61.5,356.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="117" height="41" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 117px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID8 Is this field used in the join condition?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="59" y="27" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="321" y="350" width="120" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node9" x="321" y="350" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(321.5,348.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="117" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 117px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID9 Will this table get larger than 100 thous records?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="59" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 442.36 190 L 394.64 240" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(402.5,191.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 499.5 190 L 547 240" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(519.5,191.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<path d="M 821 190 L 821 240" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(778.5,201.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="62" height="27" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>Sandbox 
+								<br />
+							</div>
+							<div>table only</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="31" y="20" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 881 184 L 1031 244" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(937.5,189.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="72" height="27" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>Table being</div>
+							<div>joined to
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="36" y="20" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 291 297.91 L 151 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(220.5,296.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 370.09 300 L 376.91 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(375.5,308.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<rect x="1" y="460" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node16" x="1" y="460" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(3.5,459.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="115" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 115px; white-space: normal; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">ID16 Ranking: 1
+							<div>Note: This is the best option available!
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="58" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="131" y="460" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node17" x="131" y="460" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(136.5,467.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="109" height="41" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID17 Ranking: 2
+								<br />
+							</div>
+							<div>*See 
+								<br />
+							</div>
+							<div>instructions
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="55" y="27" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="261" y="460" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node18" x="261" y="460" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(263.5,459.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="115" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 115px; white-space: normal; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID18 Do not use. Find another field for distribution.
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="58" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="390.5" y="460" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node19" x="390.5" y="460" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(395.5,467.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="109" height="41" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID19 Ranking: 3</div>
+							<div>*See 
+								<br />
+							</div>
+							<div>instructions
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="55" y="27" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 104.64 410 L 77.36 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(63.5,422.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 140.09 410 L 171.91 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(162.5,421.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<path d="M 364.64 410 L 337.36 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(329.5,420.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 399.95 410 L 431.55 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(422.5,421.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<rect x="746" y="240" width="150" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node6" x="746" y="240" width="150" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(746.5,238.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="147" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 147px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID6 Does this field have high cardinality (good distribution) in the sandbox table?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="74" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="1031" y="240" width="130" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node7" x="1031" y="240" width="130" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(1031.5,231.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="127" height="70" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 127px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID7 
+								<br />
+							</div>
+							<div>Does the table I am  joining to use this field as the distribution key?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="64" y="41" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="731" y="350" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node12" x="731" y="350" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(736.5,371.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="109" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID12 Ranking: 6
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="55" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">&lt;div&gt;ID12 Ranking: 6&lt;br&gt;&lt;/div&gt;</text>
+			</switch>
+		</g>
+		<rect x="862" y="350" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node13" x="862" y="350" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(864.5,349.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="115" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 115px; white-space: normal; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID13 Do not use. Find another field for distribution.
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="58" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 812.82 300 L 799.18 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(783.5,313.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 848.55 300 L 894.45 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(877.5,309.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<rect x="455.5" y="350" width="120" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node10" x="455.5" y="350" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(455.5,356.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="117" height="41" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 117px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID10 Is this field used in the join condition?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="59" y="27" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="590" y="350" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node11" x="590" y="350" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(592.5,349.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="115" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 115px; white-space: normal; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID11 Do not use. Find another field for distribution.
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="58" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 538.14 300 L 515.29 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(505.5,305.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 612.43 300 L 649.57 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(629.5,302.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<rect x="992" y="350" width="160" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node14" x="992" y="350" width="160" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(992.5,341.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="157" height="70" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 157px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID14 Would this field have high cardinality (good distribution) if added to the sandbox table?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="79" y="41" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="1166" y="350" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node15" x="1166" y="350" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(1168.5,349.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="115" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 115px; white-space: normal; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID15 Do not use. Find another field for distribution.
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="58" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 1063.86 300 L 1032.43 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(1026.5,310.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 1128.14 300 L 1189.3 350" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(1156.5,300.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<rect x="520" y="460" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node20" x="520" y="460" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(525.5,481.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="109" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID20 Ranking: 5</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="55" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">&lt;div&gt;ID20 Ranking: 5&lt;/div&gt;</text>
+			</switch>
+		</g>
+		<rect x="653" y="460" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node21" x="653" y="460" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(658.5,481.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="109" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID21 Ranking: 6
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="55" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">&lt;div&gt;ID21 Ranking: 6&lt;br&gt;&lt;/div&gt;</text>
+			</switch>
+		</g>
+		<path d="M 485.29 410 L 549.57 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(499.5,436.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 545.29 410 L 742.43 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(630.5,431.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<rect x="1080" y="460" width="120" height="60" rx="9" ry="9" fill="#000000" stroke="#000000" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node23" x="1080" y="460" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+		<g transform="translate(1080.5,458.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="117" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 117px; white-space: normal; overflow-wrap: normal; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID23 Will this table get larger than 100 thous records?
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="59" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="941" y="460" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node22" x="941" y="460" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(946.5,467.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="109" height="41" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID22 Ranking: 2
+								<br />
+							</div>
+							<div>*See 
+								<br />
+							</div>
+							<div>instructions
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="55" y="27" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<path d="M 1032.43 410 L 1012.79 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(1000.5,422.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 1085.29 408.57 L 1139.57 460" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(1118.5,417.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+		<rect x="996" y="575" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node24" x="996" y="575" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(998.5,574.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="115" height="56" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 115px; white-space: normal; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID24 Do not use. Find another field for distribution.
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="58" y="34" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">[Not supported by viewer]</text>
+			</switch>
+		</g>
+		<rect x="1126" y="575" width="120" height="60" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+		<rect id="node25" x="1126" y="575" width="120" height="60" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+		<g transform="translate(1131.5,596.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="109" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+							<div>ID25 Ranking: 4
+								<br />
+							</div>
+						</div>
+					</div>
+				</foreignObject>
+				<text x="55" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" font-weight="bold">&lt;div&gt;ID25 Ranking: 4&lt;br&gt;&lt;/div&gt;</text>
+			</switch>
+		</g>
+		<path d="M 1118.09 520 L 1077.91 575" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(1071.5,533.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="21" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Yes
+						</div>
+					</div>
+				</foreignObject>
+				<text x="11" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">Yes</text>
+			</switch>
+		</g>
+		<path d="M 1152 520 L 1174 575" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(1170.5,537.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="17" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div
+						xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+						<div
+							xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">No
+						</div>
+					</div>
+				</foreignObject>
+				<text x="9" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana">No</text>
+			</switch>
+		</g>
+	</g>
+</svg>
