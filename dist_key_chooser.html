@@ -72,7 +72,7 @@
     /////////////////////////////////////////////////////////////////
     // Tree class definitions - tree/node
         class Node {
-            constructor(nodeID, textValueRank = null) { //textValueMessage
+            constructor({nodeID, textValueRank = null}) { //textValueMessage
                 //this.textValueMessage = textValueMessage;
                 this.left = null;
                 this.right = null;
@@ -92,14 +92,14 @@
                 this.root = null;
             }
 
-            insert(parentNode, position, textValueRank = null) { //textValueMessage
+            insert({parentNode, position, textValueRank = null}) { //textValueMessage
                 this.count++;
-                let newNode = new Node(nodeID = this.count, textValueRank = textValueRank); //textValueMessage = textValueMessage,
-                this.root === null ? this.root = newNode : this.insertAt(parentNode = parentNode, position = position, newNode = newNode); //textValueMessage = textValueMessage,
+                let newNode = new Node({nodeID:this.count, textValueRank:textValueRank}); //textValueMessage = textValueMessage,
+                this.root === null ? this.root = newNode : this.insertAt({parentNode:parentNode, position:position, newNode:newNode}); //textValueMessage = textValueMessage,
                 return newNode;
             }
 
-            insertAt(parentNode, position, newNode) { //textValueMessage
+            insertAt({parentNode, position, newNode}) { //textValueMessage
 
                 if (position === "left") {
                     parentNode.left = newNode;
@@ -112,7 +112,7 @@
     /////////////////////////////////////////////////////////////////
     // class for data 
         class NodeData {
-            constructor(key, positionFromParent, parentKey,  textValueRnk = null, category) { //textValueMessage,
+            constructor({key, positionFromParent, parentKey,  textValueRank = null, category}) { //textValueMessage,
                 this.key = key;
                 this.positionFromParent = positionFromParent; // "left", "right", or null (for root)
                 this.parentKey = parentKey;
@@ -126,31 +126,31 @@
     // loading / rendering
         var arDataItems = [];
         
-        arDataItems.push(new NodeData(key = 1,  positionFromParent = null,    parentKey = null, textValueRank = null, category = "FIELD_IN_BOTH_TABLES"));  //textValueMessage = "Does the field exist in both tables? (Table being created and table being joined to)"
-        arDataItems.push(new NodeData(key = 2,  positionFromParent = "left",  parentKey = 1,    textValueRank = null, category = "DISTKEY_IN_OTHER_TABLE"));  //textValueMessage = "Does the table I am joining to use this field as the distribution key?",
-        arDataItems.push(new NodeData(key = 3,  positionFromParent = "right", parentKey = 1,    textValueRank = null, category = ""));  //textValueMessage = "Which table does the field exist in?",
-        arDataItems.push(new NodeData(key = 4,  positionFromParent = "left",  parentKey = 2,    textValueRank = null, category = "HIGH_CARDINALITY"));  //textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?",
-        arDataItems.push(new NodeData(key = 5,  positionFromParent = "right", parentKey = 2,    textValueRank = null, category = "HIGH_CARDINALITY")); //textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?",
-        arDataItems.push(new NodeData(key = 6,  positionFromParent = "left",  parentKey = 3,    textValueRank = null, category = "HIGH_CARDINALITY"));  //textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?",
-        arDataItems.push(new NodeData(key = 7,  positionFromParent = "right", parentKey = 3,    textValueRank = null, category = "DISTKEY_IN_OTHER_TABLE"));  //textValueMessage = "Does the table I am joining to use this field as the distribution key?",
-        arDataItems.push(new NodeData(key = 8,  positionFromParent = "left",  parentKey = 4,    textValueRank = null, category = "USED_IN_JOINS"));  //textValueMessage = "Is this field used in the join condition?",
-        arDataItems.push(new NodeData(key = 9,  positionFromParent = "right", parentKey = 4,    textValueRank = null, category = "LARGE_TABLE"));  //textValueMessage = "Will this table get larger than 100 thous records?",
-        arDataItems.push(new NodeData(key = 10, positionFromParent = "left",  parentKey = 5,    textValueRank = null, category = "USED_IN_JOINS")); //textValueMessage = "Is this field used in the join condition?",
-        arDataItems.push(new NodeData(key = 11, positionFromParent = "right", parentKey = 5,    textValueRank = null, category = "LEAF_DNU")); //textValueMessage = "DO NOT USE. Find another field for distribution.",
-        arDataItems.push(new NodeData(key = 12, positionFromParent = "left",  parentKey = 6,    textValueRank = 6   , category = "LEAF1")); //textValueMessage = null,
-        arDataItems.push(new NodeData(key = 13, positionFromParent = "right", parentKey = 6,    textValueRank = null, category = "LEAF_DNU")); //textValueMessage = "DO NOT USE. Find another field for distribution.",
-        arDataItems.push(new NodeData(key = 14, positionFromParent = "left",  parentKey = 7,    textValueRank = null, category = "HIGH_CARDINALITY")); //textValueMessage = "Would this field have high cardinality (good cardinality) if added to the sandbox table?",
-        arDataItems.push(new NodeData(key = 15, positionFromParent = "right", parentKey = 7,    textValueRank = null, category = "LEAF_DNU")); //textValueMessage = "DO NOT USE. Find another field for distribution.",
-        arDataItems.push(new NodeData(key = 16, positionFromParent = "left",  parentKey = 8,    textValueRank = 1   , category = "LEAF1")); //textValueMessage = "This is the best option available!",
-        arDataItems.push(new NodeData(key = 17, positionFromParent = "right", parentKey = 8,    textValueRank = 2   , category = "LEAF1")); //textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance",
-        arDataItems.push(new NodeData(key = 18, positionFromParent = "left",  parentKey = 9,    textValueRank = null, category = "LEAF_DNU"));  //textValueMessage = "DO NOT USE. Find another field for distribution.",
-        arDataItems.push(new NodeData(key = 19, positionFromParent = "right", parentKey = 9,    textValueRank = 3   , category = "LEAF1")); // textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance",
-        arDataItems.push(new NodeData(key = 20, positionFromParent = "left",  parentKey = 10,   textValueRank = 5   , category = "LEAF1"));  //textValueMessage = "Note: Your queries will not be colocated",
-        arDataItems.push(new NodeData(key = 21, positionFromParent = "right", parentKey = 10,   textValueRank = 6   , category = "LEAF1")); //textValueMessage = "Note: Your queries will not be colocated",
-        arDataItems.push(new NodeData(key = 22, positionFromParent = "left",  parentKey = 14,   textValueRank = 2   , category = "LEAF1"));  //textValueMessage = "Note: Your queries will be well-distributed and co-located if you include the field in the join condition. INSTRUCTIONS: Add this field to your join condition in queries for faster performance",
-        arDataItems.push(new NodeData(key = 23, positionFromParent = "right", parentKey = 14,   textValueRank = null, category = "LARGE_TABLE")); //textValueMessage = "Will this table get larger than 100 thous records?",
-        arDataItems.push(new NodeData(key = 24, positionFromParent = "left",  parentKey = 23,   textValueRank = null, category = "LEAF_DNU")); //textValueMessage = "DO NOT USE. Find another field for distribution.",
-        arDataItems.push(new NodeData(key = 25, positionFromParent = "right", parentKey = 23,   textValueRank = 4   , category = "LEAF1")); //textValueMessage = null,
+        arDataItems.push(new NodeData({key:1,  positionFromParent:null,    parentKey:null,textValueRank:null, category:"FIELD_IN_BOTH_TABLES"}));  //textValueMessage = "Does the field exist in both tables? (Table being created and table being joined to)"
+        arDataItems.push(new NodeData({key:2,  positionFromParent:"left",  parentKey:1,   textValueRank:null, category:"DISTKEY_IN_OTHER_TABLE"}));  //textValueMessage = "Does the table I am joining to use this field as the distribution key?",
+        arDataItems.push(new NodeData({key:3,  positionFromParent:"right", parentKey:1,   textValueRank:null, category:""}));  //textValueMessage = "Which table does the field exist in?",
+        arDataItems.push(new NodeData({key:4,  positionFromParent:"left",  parentKey:2,   textValueRank:null, category:"HIGH_CARDINALITY"}));  //textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?",
+        arDataItems.push(new NodeData({key:5,  positionFromParent:"right", parentKey:2,   textValueRank:null, category:"HIGH_CARDINALITY"})); //textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?",
+        arDataItems.push(new NodeData({key:6,  positionFromParent:"left",  parentKey:3,   textValueRank:null, category:"HIGH_CARDINALITY"}));  //textValueMessage = "Does this field have high cardinality (good distribution) in the sandbox table?",
+        arDataItems.push(new NodeData({key:7,  positionFromParent:"right", parentKey:3,   textValueRank:null, category:"DISTKEY_IN_OTHER_TABLE"}));  //textValueMessage = "Does the table I am joining to use this field as the distribution key?",
+        arDataItems.push(new NodeData({key:8,  positionFromParent:"left",  parentKey:4,   textValueRank:null, category:"USED_IN_JOINS"}));  //textValueMessage = "Is this field used in the join condition?",
+        arDataItems.push(new NodeData({key:9,  positionFromParent:"right", parentKey:4,   textValueRank:null, category:"LARGE_TABLE"}));  //textValueMessage = "Will this table get larger than 100 thous records?",
+        arDataItems.push(new NodeData({key:10, positionFromParent:"left",  parentKey:5,   textValueRank:null, category:"USED_IN_JOINS"})); //textValueMessage = "Is this field used in the join condition?",
+        arDataItems.push(new NodeData({key:11, positionFromParent:"right", parentKey:5,   textValueRank:null, category:"LEAF_DNU"})); //textValueMessage = "DO NOT USE. Find another field for distribution.",
+        arDataItems.push(new NodeData({key:12, positionFromParent:"left",  parentKey:6,   textValueRank:6   , category:"LEAF1"})); //textValueMessage = null,
+        arDataItems.push(new NodeData({key:13, positionFromParent:"right", parentKey:6,   textValueRank:null, category:"LEAF_DNU"})); //textValueMessage = "DO NOT USE. Find another field for distribution.",
+        arDataItems.push(new NodeData({key:14, positionFromParent:"left",  parentKey:7,   textValueRank:null, category:"HIGH_CARDINALITY"})); //textValueMessage = "Would this field have high cardinality (good cardinality) if added to the sandbox table?",
+        arDataItems.push(new NodeData({key:15, positionFromParent:"right", parentKey:7,   textValueRank:null, category:"LEAF_DNU"})); //textValueMessage = "DO NOT USE. Find another field for distribution.",
+        arDataItems.push(new NodeData({key:16, positionFromParent:"left",  parentKey:8,   textValueRank:1   , category:"LEAF1"})); //textValueMessage = "This is the best option available!",
+        arDataItems.push(new NodeData({key:17, positionFromParent:"right", parentKey:8,   textValueRank:2   , category:"LEAF1"})); //textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance",
+        arDataItems.push(new NodeData({key:18, positionFromParent:"left",  parentKey:9,   textValueRank:null, category:"LEAF_DNU"}));  //textValueMessage = "DO NOT USE. Find another field for distribution.",
+        arDataItems.push(new NodeData({key:19, positionFromParent:"right", parentKey:9,   textValueRank:3   , category:"LEAF1"})); // textValueMessage = "INSTRUCTIONS: Add this field to your join condition in queries for faster performance",
+        arDataItems.push(new NodeData({key:20, positionFromParent:"left",  parentKey:10,  textValueRank:5   , category:"LEAF1"}));  //textValueMessage = "Note: Your queries will not be colocated",
+        arDataItems.push(new NodeData({key:21, positionFromParent:"right", parentKey:10,  textValueRank:6   , category:"LEAF1"})); //textValueMessage = "Note: Your queries will not be colocated",
+        arDataItems.push(new NodeData({key:22, positionFromParent:"left",  parentKey:14,  textValueRank:2   , category:"LEAF1"}));  //textValueMessage = "Note: Your queries will be well-distributed and co-located if you include the field in the join condition. INSTRUCTIONS: Add this field to your join condition in queries for faster performance",
+        arDataItems.push(new NodeData({key:23, positionFromParent:"right", parentKey:14,  textValueRank:null, category:"LARGE_TABLE"})); //textValueMessage = "Will this table get larger than 100 thous records?",
+        arDataItems.push(new NodeData({key:24, positionFromParent:"left",  parentKey:23,  textValueRank:null, category:"LEAF_DNU"})); //textValueMessage = "DO NOT USE. Find another field for distribution.",
+        arDataItems.push(new NodeData({key:25, positionFromParent:"right", parentKey:23,  textValueRank:4   , category:"LEAF1"})); //textValueMessage = null,
 
         var objtree1 = new Tree();
         var objParentNodes = {};
@@ -159,11 +159,11 @@
         // objCategoryNodes[nodeID] = {category: category_string, nodes: [node1, node2, node3]}
 
         // loop through node data
-            for(i=1; i< arDataItems.count; i++) {
+            for(i=0; i< arDataItems.length; i++) {
                 nodeData1 = arDataItems[i];
 
                 //note - for root node, some of these values will be null
-                nodeObj1 = objtree.insert(parentNode = objParentNodes[nodeData1.parentKey], position=nodeData1.positionFromParent, textValueRank = nodeData1.textValueRank); //textValueMessage = nodeData1.textValueMessage
+                nodeObj1 = objtree1.insert({parentNode:objParentNodes[nodeData1.parentKey], position:nodeData1.positionFromParent, textValueRank:nodeData1.textValueRank}); //textValueMessage = nodeData1.textValueMessage
                 // add all nodes into objParentNodes even if they don't have children. if no children, can leave childNodes as empty array
                 objParentNodes[nodeData1.key] = {node: nodeObj1, childNodes: []};
                 
@@ -179,14 +179,12 @@
                 objCategoryNodes[nodeData1.category].nodes.push(nodeObj1);
             }
 
-            for (var parentNodeKey in objParentNodes) {
-                console.log('key:' + parentNodeKey + ' value:' + objParentNodes[parentNodeKey]);
-            }
-
     /////////////////////////////////////////////////////////////////
     // update formatting when change values of form buttons
-        function UpdateDecisionTreeFormat(category1, categoryValueYN) {
-            console.log('abc');
+        function UpdateDecisionTreeFormat({category1, categoryValueYN}) {
+            for (i=0; i < objCategoryNodes[category1].nodes.length; i++) {
+                console.log('abc');
+            }
         }
         
     
