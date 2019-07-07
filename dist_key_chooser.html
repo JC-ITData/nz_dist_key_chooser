@@ -79,11 +79,11 @@
     /////////////////////////////////////////////////////////////////
     // Tree class definitions - tree/node
         class Node {
-            constructor({nodeID, textValueRank = null}) { //textValueMessage
+            constructor({nodeId, textValueRank = null}) { //textValueMessage
                 //this.textValueMessage = textValueMessage;
                 this.left = null;
                 this.right = null;
-                this.nodeId = nodeID;
+                this.nodeId = nodeId;
                 this.textValueRank = textValueRank;
             }
             toString() {
@@ -101,7 +101,7 @@
 
             insert({parentNode, position, textValueRank = null}) { //textValueMessage
                 this.count++;
-                let newNode = new Node({nodeID:this.count, textValueRank:textValueRank}); //textValueMessage = textValueMessage,
+                let newNode = new Node({nodeId:this.count, textValueRank:textValueRank}); //textValueMessage = textValueMessage,
                 this.root === null ? this.root = newNode : this.insertAt({parentNode:parentNode, position:position, newNode:newNode}); //textValueMessage = textValueMessage,
                 return newNode;
             }
@@ -164,7 +164,7 @@
         var objParentNodes = {};
         // objParentNodes[parent_node_id_num] = {node: parentNodeObj, childNodes: [childnode1, childnode2, childnode3]}
         var objCategoryNodes = {}; // tracks nodes for each category
-        // objCategoryNodes[nodeID] = {category: category_string, nodes: [node1, node2, node3]}
+        // objCategoryNodes[nodeId] = {category: category_string, nodes: [node1, node2, node3]}
 
         // loop through node data
             for(i=0; i< arDataItems.length; i++) {
